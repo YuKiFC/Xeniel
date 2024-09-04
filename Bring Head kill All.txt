@@ -1,4 +1,4 @@
--- HWID Whitelist
+-- HWID Whitelistl
 
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
 local WhitelistedHWIDs = {"63de5c1d-dfa3-446b-afcc-59c06bf2dc00","f08ea297-ef8d-403d-b4de-afdb89dbeded"}
