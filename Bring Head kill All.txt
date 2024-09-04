@@ -1,21 +1,26 @@
--- HWID Whitelistl
+getgenv().Script_Key = "PlaceholderKey" -- // Paste Your Key Here!
 
-local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
-local WhitelistedHWIDs = {"55f324e4-2835-45a5-9233-397bfd90b1e1","f08ea297-ef8d-403d-b4de-afdb89dbeded"}
-local qNVAKkuwxNpqruLjSRHg = false
 
-function CheckHWID(hwidval)
-for _,whitelisted in pairs(WhitelistedHWIDs) do
- if hwidval == whitelisted then
-     return true
- elseif hwidval ~= whitelisted then
-     return false
-       end
+-- // Whitelist's Main Code
+local hnmXBTNrJdsD934sEVnD = {"Dungeon_Key371e21bf1f2818752e8b19a4840aca28","Dungeon_Key2ef69bc2af7f4ae64a29d5379821ee08","Dungeon_Key3c2eb5d2ef7a59fad42fec421f15677e"}
+local oHqkFBUiYMWoBRZ0r4Zl = false
+
+function CheckKey(allah)
+for _,keys in pairs(hnmXBTNrJdsD934sEVnD) do
+if allah == keys then
+return true
     end
+  end
 end
 
-qNVAKkuwxNpqruLjSRHg = CheckHWID(HWID)
+oHqkFBUiYMWoBRZ0r4Zl = CheckKey(getgenv().Script_Key)
+wait(0.1)
 
-if qNVAKkuwxNpqruLjSRHg == true then
- loadstring(game:HttpGet("https://raw.githubusercontent.com/YuKiFC/Xeniel/main/Protected_2682035049070671.txt"))()
+if oHqkFBUiYMWoBRZ0r4Zl == true then
+-- // Code Here For If Its A Whitelisted Key
+print("The Key "..getgenv().Script_Key.." Was Valid. Welcome "..game.Players.LocalPlayer.Name.."!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YuKiFC/Xeniel/main/Protected_2682035049070671.txt"))()
+elseif oHqkFBUiYMWoBRZ0r4Zl == false then
+-- // Invalid Key Code
+print("Uh Oh "..getgenv().Script_Key.." Is Not A Valid Key.")
 end
