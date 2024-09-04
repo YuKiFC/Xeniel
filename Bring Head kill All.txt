@@ -1,4 +1,4 @@
-getgenv().Script_Key = "PlaceholderKey" -- // Paste Your Key Here!
+
 
 
 -- // Whitelist's Main Code
