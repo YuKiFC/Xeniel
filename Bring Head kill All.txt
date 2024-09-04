@@ -14,7 +14,7 @@ return true
 end
 
 oHqkFBUiYMWoBRZ0r4Zl = CheckKey(getgenv().Script_Key)
-wait(0.1)
+wait()
 
 if oHqkFBUiYMWoBRZ0r4Zl == true then
 -- // Code Here For If Its A Whitelisted Key
