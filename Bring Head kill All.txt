@@ -18,7 +18,7 @@ wait()
 
 if oHqkFBUiYMWoBRZ0r4Zl == true then
 -- // Code Here For If Its A Whitelisted Key
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YuKiFC/Xeniel/main/Protected_2682035049070671.txt"))()
+loadstring(game:HttpGet(""))()
 elseif oHqkFBUiYMWoBRZ0r4Zl == false then
 -- // Invalid Key Code
 print("Uh Oh "..getgenv().Script_Key.." Is Not A Valid Key.")
